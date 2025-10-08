@@ -1,0 +1,6 @@
+# my_laravel_docker_crontab
+# m h  dom mon dow   command
+  * * * * * cd /var/www/kaira-back/ && /usr/local/bin/php artisan schedule:run >> /var/log/cron.log 2>&1
+  * * * * * echo "Cron is in action" >> /var/log/cron.log 2>&1
+
+

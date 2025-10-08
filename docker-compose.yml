@@ -1,0 +1,52 @@
+networks:
+  kaira:
+    driver: bridge
+
+services:
+  nginx:
+    build:
+      context: ./kaira-back
+      dockerfile: docker/Nginx.Dockerfile
+    container_name: kaira-back-nginx
+    ports:
+      - "8088:80"
+    depends_on:
+      - fpm
+    volumes:
+      - ./kaira-back:/var/www/kaira-back
+    networks:
+      - kaira
+
+  fpm:
+    build:
+      context: ./kaira-back
+      dockerfile: docker/Fpm.Dockerfile
+    container_name: kaira-back-app
+    volumes:
+      - ./kaira-back:/var/www/kaira-back
+    networks:
+      - kaira
+
+  composer:
+    image: composer:2
+    container_name: kaira-back-composer
+    working_dir: /var/www/kaira-back
+    command: ["composer", "install"]
+    volumes:
+      - ./kaira-back:/var/www/kaira-back
+    networks:
+      - kaira
+  nuxt:
+    build:
+      context: ./kaira-front
+      dockerfile: ./docker/Nuxt.Dockerfile
+    container_name: kaira-front
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    networks:
+      - kaira
+    env_file:
+      - ./kaira-front/.env
+
+

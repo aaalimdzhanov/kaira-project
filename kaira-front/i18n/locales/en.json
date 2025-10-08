@@ -1,0 +1,71 @@
+{
+  "menu": {
+    "home": "Asosiy",
+    "shop": {
+      "title": "Do'kon",
+      "clothing": "Ko'ylaklar",
+      "scarves": "Ro'mollar",
+      "accessories": "Aksesuarlar"
+    },
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "wishlist": "Istaklar",
+    "cart": "Savat",
+    "about": "Biz xaqimizda",
+    "quick_links": "Tezkor havolalar",
+    "help_info": "Yordav & Ma'lumot",
+    "contact_us": "Biz bilan bog‘laning",
+    "questions": "Sizda savol yoki takliflar bormi?",
+    "support_call": "Yordam kerakmi? Bizga qoʻngʻiroq qiling.",
+    "copyright": "Mualliflik huquqi 2025 Kaira. Barcha huquqlar himoyalangan.",
+    "follow_instagram": "Instagram’da bizni kuzating",
+    "greeting": "Bizning ro‘mol va aksessuarlar do‘konimizga xush kelibsiz! Biz eng yaxshi modellarning to‘plamini jamladik, shunda siz har qanday uslubga mos keladigan nafis detallarni oson topishingiz mumkin. Sizning ideal aksessuaringiz aynan shu yerda sizni kutmoqda.",
+    "head_office": "Asosiy do'kon",
+    "online_only_store_notice": "Hozircha biz faqat onlayn ishlaymiz, sizlarga yanada yaqin bo‘lish uchun. Ammo tez orada birinchi do‘konimizni ochamiz va siz mahsulotlarimizni shaxsan ko‘rishingiz mumkin bo‘ladi.",
+    "default_sorting": "Asosiy tartib",
+    "showing": "Ko'rsatildi",
+    "results": "natija",
+    "total": "j'ami",
+    "order": "Buyurtma berish",
+    "cart_total": "Savat ja'mi",
+    "add_to_cart": "Savatga qo'shish",
+    "product": "Mahsulot",
+    "quantity": "Soni",
+    "subtotal": "Narxi",
+    "in_stock": "mavjud",
+    "country": "Mamlakat",
+    "brand": "Brand",
+    "season": "Mavsum",
+    "material": "Mato",
+    "color": "Rang",
+    "size": "O'lchami"
+  },
+  "home": {
+    "new-collections": "Yangi kolleksiya",
+    "delevery": "Yetkazib berish",
+    "pickup_store": "Do‘kondan olib ketish",
+    "special_packaging": "Maxsus o‘ram",
+    "order_desc": "Buyurtmangizni istalgan vaqtda onlayn tarzda rasmiylashtirishingiz mumkin",
+    "order": "Online buyurtmalar",
+    "discover_now": "Hozir kashf eting",
+    "our_new_arrivals": "Yangi kelganlar",
+    "best_selling_items": "Sotuv hitlar",
+    "you_may_also_like": "Sizga ham yoqishi mumkin",
+    "season_collection": "Mavsumiy kolleksiya",
+    "shop_collection": "Kolleksiyani xarid qiling",
+    "all_products": "Barcha mahsulotlarni ko'rish",
+    "delevery_desc": "Shaxar bo‘ylab tez va qulay yetkazib berish",
+    "pickup_store_desc": "Buyurtmangizni o‘zingizga qulay vaqtda do‘konimizdan olib ketishingiz mumkin.",
+    "special_packaging_desc": "Buyurtmangizni ehtiyotkorlik bilan chiroyli va ishonchli o‘ramda tayyorlaymiz",
+    "season_collection_desc": "Har bir mavsum o‘ziga xos ranglar va kayfiyat olib keladi. Bizning kolleksiyamiz uslub, qulaylik va nafislikni birlashtiradi hamda sizning betakror uslubingizni yanada ochib beradi. Ushbu mavsumning eng yaxshi liboslarini kashf eting va sizni ilhomlantiradigan uslubni toping."
+  },
+  "burger": {
+    "continue_checkout": "Haridni davom etiring",
+    "your_cart": "Sizning savatingiz",
+    "total": "Summa",
+    "clear": "Savatni bo'shatish"
+  },
+  "message":{
+    "cart_cleaned":"Savat bo'shatildi"
+  }
+}
